@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="login-box">
+            <h1 class="welcome-text">Welcome</h1>
+            <p class="about-text">Login to Website to continue to W3 Web App</p>
+            <form class="submit-form" type="submit">
+                <input type="email" id="email" placeholder="Email address">
+                <div class="password-box" id="password">
+                    <input type="password" id="pass" placeholder="Password">
+                    <img src="./icons/icons8-eye-24.png" id="hide_eye" width="20px" height="20px">
+                </div>
+                <a href="#forgot-pass" id="forgot-password">Forgot Password?</a>
+                <button id="continue-button" type="submit">Continue</button>
+            </form>
+            <p id="create-account">Don't have an account?<a href="#sign_up">Sign up</a></p>
+            <div class="partition-decoration">
+                <span></span>
+                <p>OR</p>
+                <span></span>
+            </div>
+            <button id="google-link"><img src="./icons/icons8-google.svg" width="25px"> Continue with Google</button>
+            <button id="github-link"><img src="./icons/icons8-github.svg"> Continue with GitHub</button>
+        </div>
+    </div>
+</body>
+
+<script src="./script/index.js"></script>
+
+</html>
